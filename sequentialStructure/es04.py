@@ -1,4 +1,5 @@
 # Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+# # Make a Program that asks for the 4 bimonthly notes and shows the average.
 
 medias = []
 medias.append(input('\nDigite a primeira média: '))
