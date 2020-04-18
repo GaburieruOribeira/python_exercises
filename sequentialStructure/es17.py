@@ -6,6 +6,14 @@
 # 3) Misturar latas e galões, de forma que o preço seja o menor.
 # Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
+# Make a program for a paint store. The program must request the size in square meters of the area to be painted.
+# Consider that the paint coverage is 1 liter for every 6 square meters and that the paint is sold in 18 liter cans, which cost R $ 80.00 or in 3.6 liter gallons, which cost R $ 25, 00.
+# Inform the user of the quantities of ink to be purchased and the respective prices in 3 situations:
+# 1) Buy only 18 liter cans;
+# 2) Buy only 3.6 liter gallons;
+# 3) Mix cans and gallons, so that the price is the lowest.
+# Add 10% clearance and always round the values upwards, that is, consider full cans.
+
 import math
 
 try:
