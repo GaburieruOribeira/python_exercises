@@ -4,7 +4,13 @@
 # b) Quanto pagou ao INSS.
 # c) Quanto pagou ao sindicato.
 # d) O salário líquido.
-# e) Calcule os descontos e o salário líquido, conforme a tabela abaixo:
+
+# Make a Program that asks how much you earn per hour and the number of hours worked in the month.
+# Calculate and show the total of your salary in that month, knowing that 11% are deducted for Income Tax, 8% for INSS and 5% for the union, make a program that gives us:
+# a) Gross salary.
+# b) How much you paid INSS.
+# c) How much you paid the union.
+# d) The net salary.
 
 hourlyWage = float(input('\nHow much salary do you earn per hour? R$'))
 workedHours = float(input('\nHow many hours do you work in this month? '))
