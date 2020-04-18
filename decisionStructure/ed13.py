@@ -1,4 +1,5 @@
 # Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+# Make a Program that reads a number and displays the corresponding day of the week. (1-Sunday, 2-Monday, etc.), if you enter another value, an invalid value should appear.
 
 try:
     number = int(input("\nEnter a number: "))
