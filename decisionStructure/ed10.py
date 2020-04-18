@@ -2,6 +2,10 @@
 # Peça para digitar M-matutino ou V-Vespertino ou N-Noturno.
 # Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
+# Make a Program that asks in which shift you study.
+# Ask to type M-morning or V-Evening or N-Night.
+# Print the message "Good morning!", "Good afternoon!" or good night!" or "Invalid Value!", as appropriate.
+
 shift = str(input("""\nWhat's your turn:
 M - Morning
 A - Afternoon
