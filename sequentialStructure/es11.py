@@ -3,6 +3,11 @@
 # b) A soma do triplo do primeiro com o terceiro.
 # c) O terceiro elevado ao cubo.
 
+# Make a Program that asks for 2 whole numbers and a real number. Calculate and show:
+# a) The product of double the first with half the second.
+# b) The sum of triple the first with the third.
+# c) The third cubed.
+
 num1 = float(input("\nEnter the first integer number: "))
 num2 = float(input("\nEnter the second integer number: "))
 num3 = float(input("\nEnter the real number: "))
