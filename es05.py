@@ -1,5 +1,6 @@
 # Faça um Programa que converta metros para centímetros.
+# Make a program that converts meters to centimeters.
 
-meters = float(input('\nDigite um valor em metros: '))
+meters = float(input('\nEnter a value in meters: '))
 centimeters = meters * 100
-print('\n{}m em centímetros é: {}cm'.format(meters, centimeters))
+print('\n{}m in centimeters is: {}cm'.format(meters, centimeters))
