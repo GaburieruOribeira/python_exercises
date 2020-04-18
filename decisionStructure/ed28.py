@@ -8,6 +8,16 @@
 # Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra:
 # -tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
 
+# Hipermercado Tabajara has a meat promotion that is a must. Check out:
+#                     Up to 5 Kg              Above 5 Kg
+# Double File      R$4.90 per Kg           R$5.80 per Kg
+# Rump             R$5.90 per kg           R$6.80 per kg
+# Picanha          R$6.90 per Kg           R$7.80 per Kg
+# To serve all customers, each customer may take only one type of meat from the promotion, but there are no limits on the amount of meat per customer.
+# If the purchase is made on the Tabajara card, the customer will also receive a 5% discount on the total purchase.
+# Write a program that asks for the type and quantity of meat purchased by the user and generates a tax coupon, containing the purchase information:
+# -type and quantity of meat, total price, type of payment, discount amount and amount payable.
+
 print("""\nPrice Table:
                           Up to 5 Kg               Over 5 Kg
 1 - Double Filet      R$ 4,90 per Kg          R$ 5,80 per Kg
