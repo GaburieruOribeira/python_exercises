@@ -1,4 +1,5 @@
 # Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+# Make a Program that asks for a number corresponding to a certain year and then inform if this year is leap or not.
 
 year = int(input("\nEnter a year: "))
 divisionBy4 = year % 4
