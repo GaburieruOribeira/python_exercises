@@ -2,6 +2,10 @@
 # - Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;
 # - Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
+# Make a program for an ATM. The program should ask the user for the withdrawal amount and then inform how many notes of each amount will be provided. The available grades will be 1, 5, 10, 50 and 100 reais. The minimum value is 10 reais and the maximum 600 reais. The program should not be concerned with the amount of banknotes on the machine.
+# - Example 1: To withdraw the amount of 256 reais, the program provides two 100 notes, a 50 note, a 5 note and a 1 note;
+# - Example 2: To withdraw the amount of 399 reais, the program provides three notes of 100, a note of 50, four notes of 10, a note of 5 and four notes of 1.
+
 withdrawalAmount = int(input("\nThe minimum value is R$10 and the maximum R%600\nEnter withdrawal Amount: R$"))
 notes = [1, 5, 10, 50, 100]
 hundred = int(withdrawalAmount / 100)
@@ -14,8 +18,8 @@ five = int(withdrawalAmount / 5)
 withdrawalAmount = withdrawalAmount - (five * 5)
 one = withdrawalAmount
 
-print("""Notas de R$100,00: {}
-Notas de R$50,00: {}
-Notas de R$10,00: {}
-Notas de R$5,00: {}
-Notas de R$1,00: {}""".format(hundred, fifty, ten, five, one))
+print("""R$100,00 notes: {}
+R$50,00 notes: {}
+R$10,00 notes: {}
+R$5,00 notes: {}
+R$1,00 notes: {}""".format(hundred, fifty, ten, five, one))
