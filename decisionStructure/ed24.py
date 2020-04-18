@@ -3,6 +3,11 @@
 # - positivo ou negativo;
 # - inteiro ou decimal.
 
+# Make a program that reads 2 numbers and then ask the user which operation he wants to perform. The result of the operation must be accompanied by a sentence that says whether the number is:
+# - even or odd;
+# - positive or negative;
+# - integer or decimal.
+
 num1 = float(input("\nEnter the first number: "))
 num2 = float(input("\nEnter the second number: "))
 
