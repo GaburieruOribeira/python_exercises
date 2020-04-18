@@ -4,6 +4,12 @@
 # A mensagem "Reprovado", se a média for menor do que sete;
 # A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
+# Make a program for reading a student's two partial grades.
+# The program should calculate the average achieved per student and present:
+# The message "Approved", if the average achieved is greater than or equal to seven;
+# The message "Failed", if the average is less than seven;
+# The message "Approved with Distinction", if the average is equal to ten.
+
 def AverageCalculation():
     note1 = float(input("\nEnter the first note: "))
     note2 = float(input("\nEnter the second note: "))
