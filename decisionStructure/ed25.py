@@ -8,7 +8,17 @@
 # Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
 # Caso contrário, ele será classificado como "Inocente".
 
-questions = ["\nTelefonou para a vítima?", "\nEsteve no local do crime?", "\nMora perto da vítima?", "\nDevia para a vítima?", "\nJá trabalhou com a vítima?"]
+# Make a program that asks a person 5 questions about a crime. The questions are:
+# - "Did you call the victim?"
+# - "Were you at the crime scene?"
+# - "Do you live near the victim?"
+# - "Should it be for the victim?"
+# - "Have you worked with the victim?"
+# The program must ultimately issue a rating on the person's participation in the crime.
+# If the person responds positively to 2 questions, he should be classified as "Suspect", between 3 and 4 as "Accomplice" and 5 as "Assassin".
+# Otherwise, it will be classified as "Innocent".
+
+questions = ["\nDid you call the victim?", "\nWere you at the crime scene?", "\nDo you live near the victim?", "\nShould it be for the victim?", "\nHave you worked with the victim?"]
 answers = []
 
 for i in range(5):
@@ -19,10 +29,10 @@ answers = [element.lower() for element in answers]
 affirmative = answers.count("yes")
 
 if affirmative == 2:
-    print("\nSuspeita")
+    print("\nSuspect")
 elif affirmative == 3 or affirmative == 4:
-    print("\nCúmplice")
+    print("\nAccomplice")
 elif affirmative == 5:
-    print("\nAssassino")
+    print("\nAssassin")
 else:
-    print("\nInocente")
+    print("\nInnocent")
