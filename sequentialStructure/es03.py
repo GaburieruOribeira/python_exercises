@@ -1,4 +1,5 @@
 # Faça um Programa que peça dois números e imprima a soma.
+# Make a program that asks for two numbers and prints the sum.
 
 try:
     num1 = int(input('\nDigite um número: '))
