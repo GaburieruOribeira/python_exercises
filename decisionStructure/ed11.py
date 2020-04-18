@@ -9,8 +9,6 @@
 # - O valor do aumento;
 # - O novo salário, após o aumento.
 
-
-689/5000
 # Tabajara Organizations decided to give their employees a salary increase and hired them to develop the program that will calculate the adjustments.
 # Make a program that receives an employee's salary and readjust it according to the following criteria, based on the current salary:
 # - Salaries up to R $ 280.00 (including): 20% increase
