@@ -7,6 +7,15 @@
 # - Entre 4.0 e zero        E
 # O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
+# Make a program that reads the two partial marks obtained by a student in a subject over the course of a semester, and calculates their average. The assignment of concepts follows the table below:
+# - Average Utilization Concept
+# - Between 9.0 and 10.0 A
+# - Between 7.5 and 9.0 B
+# - Between 6.0 and 7.5 C
+# - Between 4.0 and 6.0 D
+# - Between 4.0 and zero E
+# The algorithm must show on the screen the notes, the average, the corresponding concept and the message “APPROVED” if the concept is A, B or C or “FAILED” if the concept is D or E.
+
 note1 = float(input("\nEnter the first note: "))
 note2 = float(input("\nEnter the second note: "))
 
