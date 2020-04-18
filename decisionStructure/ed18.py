@@ -1,4 +1,5 @@
 # Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+# Make a Program that asks for a date in the format dd / mm / yyyy and determine if it is a valid date.
 
 day = int(input("\nEnter a day: "))
 month = int(input("\nEnter a month: "))
