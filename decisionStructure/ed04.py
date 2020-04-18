@@ -1,4 +1,5 @@
 # Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+# Make a program that checks if a typed letter is a vowel or consonant.
 
 letter = str(input("\nEnter a letter: ").lower())
 vowels = ["a", "e", "i", "o", "u"]
